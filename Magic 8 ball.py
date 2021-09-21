@@ -12,8 +12,11 @@ print("Type your question or just think about the question in your head or speak
 
 input("Enter your question or press enter if you thought or spoke it out loud. \n>>")
 print("Please wait...")
-sleep(3)
+sleep(1)
 
 answers = ["It is certain", "It is decidedly so.", "With a doubt.", "Yes definitely.", "You may rely on it.",
            "As I see it, yes", "Most likely.", "Outlook good.", "Yes", "Signs point to yes.", "Reply hazy, try again.",
-           "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again."]
+           "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again."
+           "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."]
+
+print(choice(answers))
