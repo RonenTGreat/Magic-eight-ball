@@ -14,3 +14,5 @@ input("Enter your question or press enter if you thought or spoke it out loud. \
 print("Please wait...")
 sleep(3)
 
+answers = ["It is certain", "It is decidedly so.", "With a doubt.", "Yes definitely.", "You may rely on it.",
+           "As I see it, yes", "Most likely.", "Outlook good.", "Yes", "Signs point to yes.", ""]
